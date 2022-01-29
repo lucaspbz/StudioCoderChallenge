@@ -13,7 +13,6 @@
     "axios": "^0.25.0"
   },
   "scripts": {
-    "dev": "yarn sls invoke local -f main",
-    "build": "tsc"
+    "dev": "yarn sls invoke local -f main"
   }
 }
