@@ -1,0 +1,19 @@
+{
+  "name": "openbank",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "serverless": "^3.0.1",
+    "serverless-plugin-typescript": "^2.1.1",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "axios": "^0.25.0"
+  },
+  "scripts": {
+    "dev": "yarn sls invoke local -f main",
+    "build": "tsc"
+  }
+}
